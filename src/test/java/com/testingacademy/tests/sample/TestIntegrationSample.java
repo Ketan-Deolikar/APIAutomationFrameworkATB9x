@@ -1,4 +1,4 @@
-package com.testingacademy.sample;
+package com.testingacademy.tests.sample;
 
 import io.qameta.allure.Description;
 import io.qameta.allure.Owner;
@@ -13,7 +13,7 @@ public class TestIntegrationSample {
     // Delete the Booking
 
     @Test(groups = "qa", priority = 1)
-    @Owner("Promode")
+    @Owner("Pramod")
     @Description("TC#INT1 - Step 1. Verify that the Booking can be Created")
     public void testCreateBooking(){
         Assert.assertTrue(true);

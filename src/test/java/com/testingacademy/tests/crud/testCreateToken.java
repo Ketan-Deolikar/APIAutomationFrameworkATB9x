@@ -1,4 +1,4 @@
-package com.testingacademy.crud;
+package com.testingacademy.tests.crud;
 
 public class testCreateToken {
 
